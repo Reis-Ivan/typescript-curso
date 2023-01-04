@@ -1,5 +1,5 @@
 // Dont use any
-function showMessage(msg) {
+function showMessage(msg: any) {
   return msg;
 }
 

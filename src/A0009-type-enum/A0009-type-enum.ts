@@ -1,22 +1,17 @@
-enum Colors {
-  RED = 10, // 10
-  BLUE = 100, // 100
-  YELLOW = 200, // 200
+enum Cores {
+  VERMELHO = 10, // 10
+  AZUL = 100, // 100
+  AMARELO = 200, // 200
 }
 
-enum Colors {
-  PURPLE = 'ROXO',
-  GREEN = 201,
-  PINK,
+enum Cores {
+  ROXO = 'ROXO',
+  VERDE = 201,
+  ROSA,
 }
 
-// console.log(Colors);
-// console.log(Colors.RED);
-// console.log(Colors[10]);
-// console.log(Colors.PURPLE);
-
-export function chooseColor(color: Colors): void {
-  console.log(Colors[color]);
+export function escolhaACor(cor: Cores): void {
+  console.log(Cores[cor]);
 }
 
-chooseColor(Colors.PURPLE);
+escolhaACor(123456);
